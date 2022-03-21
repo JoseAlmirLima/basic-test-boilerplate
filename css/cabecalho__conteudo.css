@@ -1,6 +1,7 @@
 .cabecalho__conteudo {
   display: grid;
-  grid-template-columns: 55% 20% 25%;
+  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 500px;
 }
 .titulo__nav {
   position: absolute;
