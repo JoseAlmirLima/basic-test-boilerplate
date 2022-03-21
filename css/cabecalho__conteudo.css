@@ -1,0 +1,18 @@
+.cabecalho__conteudo {
+  display: grid;
+  grid-template-columns: 55% 20% 25%;
+}
+.titulo__nav {
+  position: absolute;
+  height: 252px;
+  left: 18.75%;
+  right: 53.47%;
+  top: calc(22% - 252px / 2);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85px;
+
+  color: #ffffff;
+}

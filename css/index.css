@@ -1,0 +1,32 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fefefefe;
+}
+
+.app {
+  display: grid;
+  grid-template-areas: "cabecalho" "conteudo" "rodape";
+  grid-template-columns: auto;
+  grid-template-rows: 500px 100vh auto;
+}
+
+.container {
+  display: grid;
+  align-content: center;
+  width: 500px;
+}
+
+.cabecalho {
+  background-color: #75bc97;
+  grid-area: cabecalho;
+}
+
+.conteudo {
+  background-color: green;
+  grid-area: conteudo;
+}
+
+.rodape {
+  background-color: blue;
+  grid-area: rodape;
+}
