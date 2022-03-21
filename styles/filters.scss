@@ -1,0 +1,41 @@
+.filters {
+  color: $darkgrey;
+}
+
+.filter {
+  padding: 25px 0;
+  &:first-child {
+    padding-top: 0;
+  }
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 0 25px;
+
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0 60px;
+  }
+
+  &__image {
+    width: 100px;
+    @media (min-width: 768px) {
+      /* width: auto;
+        height: 70px; */
+      width: 70px;
+    }
+  }
+}
