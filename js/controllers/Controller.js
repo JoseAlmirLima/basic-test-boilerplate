@@ -1,5 +1,4 @@
 import Model from "../models/Model";
-
 import sunImg from "../../images/illustrations/sun.png";
 import waterImg from "../../images/illustrations/wateringcan.png";
 import dogImg from "../../images/illustrations/dog.png";

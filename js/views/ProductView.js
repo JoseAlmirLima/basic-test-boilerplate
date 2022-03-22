@@ -1,7 +1,3 @@
-// tryed to use the svgs from the project, but codesandbox didn't allowed, so i had to convert it to png (sorry the low res)
-
-// sun img
-// import high from "../../images/icons/high-sun.png";
 import low from "../../images/icons/low-sun.svg";
 import no from "../../images/icons/no-sun.svg";
 // water img
@@ -22,12 +18,6 @@ class ProductsView {
     });
   }
 
-  // this didn't worked here at codesandbox, so i had to pass up there when calling this.controllerInstance.subscribe()
-  /* subscriber (products) => {
-    this.products = products;
-    this.renderProducts();
-  } */
-
   renderProducts() {
     if (this.products.length === 0 || this.products.error) {
       document.querySelector("#results").setAttribute("class", "hidden");
@@ -42,7 +32,7 @@ class ProductsView {
     const resultsPicks = document.querySelector("#resultsPicks");
 
     resultsPicks.innerHTML = "";
-    // SETTING STAFF FAVORITES UP FRON OF ARRAAY;
+    // CONFIGURANDO OS FAVORITOS DO ARRAY;
     const favorites = this.products.filter((product) => {
       return product.staff_favorite;
     });
@@ -97,7 +87,7 @@ class ProductsView {
 
       productEl.appendChild(productInfoEl);
 
-      // PRODUCT TITLE
+      // PRODUCT TITULO
       const productTitleEl = document.createElement("p");
       productTitleEl.setAttribute("class", "product__title");
       productTitleEl.innerText = product.name;
@@ -110,7 +100,7 @@ class ProductsView {
 
       productInfoEl.appendChild(productInfoBottomEl);
 
-      // PRODUCT PRICE
+      // PRODUCT PREÇO
       const productPriceEl = document.createElement("p");
       productPriceEl.setAttribute("class", "product__price");
       productPriceEl.innerText = "$" + product.price;
@@ -146,7 +136,7 @@ class ProductsView {
 
       productInfoBottomEl.appendChild(productTagsEl);
 
-      // INSERTING THE PRODUCT AT THE PICKS
+      // INSERINDO OS PRODUTOS
       resultsPicks.appendChild(productEl);
     });
   }
