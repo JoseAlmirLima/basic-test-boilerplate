@@ -1,16 +1,16 @@
 // tryed to use the svgs from the project, but codesandbox didn't allowed, so i had to convert it to png (sorry the low res)
 
 // sun img
-import high from "../../images/icons/high-sun.png";
-import low from "../../images/icons/low-sun.png";
-import no from "../../images/icons/no-sun.png";
+// import high from "../../images/icons/high-sun.png";
+import low from "../../images/icons/low-sun.svg";
+import no from "../../images/icons/no-sun.svg";
 // water img
-import rarely from "../../images/icons/1-drop.png";
-import regularly from "../../images/icons/2-drops.png";
-import daily from "../../images/icons/3-drops.png";
+import rarely from "../../images/icons/1-drop.svg";
+import regularly from "../../images/icons/2-drops.svg";
+import daily from "../../images/icons/3-drops.svg";
 // pet img
-import pet from "../../images/icons/pet.png";
-import toxicity from "../../images/icons/toxic.png";
+import pet from "../../images/icons/pet.svg";
+import toxicity from "../../images/icons/toxic.svg";
 
 class ProductsView {
   constructor(controllerInstance) {

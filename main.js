@@ -1,7 +1,6 @@
 import Controller from "./js/controllers/Controller";
-
 import FiltersView from "./js/views/FiltersView";
-import ProductsView from "./js/views/ProductsView";
+import ProductsView from "./js/views/ProductView";
 
 const controllerInstance = new Controller();
 const filtersViewInstance = new FiltersView(controllerInstance);

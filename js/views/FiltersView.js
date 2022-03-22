@@ -1,4 +1,4 @@
-import selectArrowImg from "../../images/icons/select-icon.png";
+import selectArrowImg from "../../images/icons/select-icon.svg";
 
 class FiltersView {
   constructor(controllerInstance) {
