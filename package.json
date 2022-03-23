@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
-    "deploy": "yarn build && gh-pages -d ./dist"
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "dependencies": {
     "parcel": "1.12.3",
