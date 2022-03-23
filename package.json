@@ -1,5 +1,5 @@
 {
-  "name": "front-end-test-2",
+  "name": "front-end-almir",
   "version": "1.0.0",
   "description": "Simple Parcel Sandbox",
   "main": "index.html",
@@ -9,7 +9,7 @@
     "deploy": "yarn build && surge ./dist"
   },
   "dependencies": {
-    "parcel": "1.12.4",
+    "parcel": "1.12.3",
     "surge": "^0.23.0"
   },
   "devDependencies": {

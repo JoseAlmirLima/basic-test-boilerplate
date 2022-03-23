@@ -6,7 +6,7 @@ class Model {
       )
         .then((response) => resolve(response.json()))
         .catch((err) => {
-          console.log("err", err);
+          console.log("deu erro", err);
           reject(err);
         });
     });
