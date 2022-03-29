@@ -1,5 +1,7 @@
+import high from "../../images/icons/high-sun.svg";
 import low from "../../images/icons/low-sun.svg";
 import no from "../../images/icons/no-sun.svg";
+
 // water img
 import rarely from "../../images/icons/1-drop.svg";
 import regularly from "../../images/icons/2-drops.svg";
