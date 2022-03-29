@@ -1,4 +1,4 @@
-import high from "../../images/icons/high-sun.svg";
+import high from "../../images/icons/high-sun.png";
 import low from "../../images/icons/low-sun.svg";
 import no from "../../images/icons/no-sun.svg";
 
